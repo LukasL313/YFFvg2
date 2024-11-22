@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YFFprosjektAuthSyst")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d1256cd6aab6922a6dec6999b673aca412c0a3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb69cf25e62bb17385c1bfc415bf2c9c75283a46")]
 [assembly: System.Reflection.AssemblyProductAttribute("YFFprosjektAuthSyst")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YFFprosjektAuthSyst")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

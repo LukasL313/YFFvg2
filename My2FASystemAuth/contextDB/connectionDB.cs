@@ -10,13 +10,13 @@ namespace ConnectionChecker
         
          public async Task CheckConnectionAsync()
          {
-            // Kommdao for å vise hvilke version av postgres blir brukt, hentet fra DBen
+            // Kommando for å vise hvilke version av postgres blir brukt, hentet fra DBen
             // Samt hvis fungerer tyder det på at DBen er oppkoblet og funker som normalt. 
-            await using (var connection = new NpgsqlConnection(connectionString))
-            {
+             await using (var connection = new NpgsqlConnection(connectionString))
+             {
              await connection.OpenAsync();
              Console.WriteLine($"The PostgreSQL version: {connection.PostgreSqlVersion}");
-            }
+             }
          }
     }
 }
