@@ -1,10 +1,10 @@
 using System;
 
-namespace UserAccount
+/* namespace UserAccount
 {
    public class RegisterUser : UserObject
    {
       
    }
       
-}
+} */

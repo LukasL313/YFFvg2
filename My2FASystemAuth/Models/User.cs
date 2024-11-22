@@ -1,6 +1,6 @@
 using System;
 
-namespace UserAccount
+/* namespace UserAccount
 {
     public class UserObject
     {
@@ -15,4 +15,4 @@ namespace UserAccount
             Password = password;
         }
     }
-}
+} */

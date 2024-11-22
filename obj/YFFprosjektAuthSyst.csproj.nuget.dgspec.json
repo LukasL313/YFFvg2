@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lukaslarsen/YFFprosjektAuthSyst/YFFprosjektAuthSyst.csproj": {}
+    "/Users/lukaslarsen/YFFvg2-1/YFFprosjektAuthSyst.csproj": {}
   },
   "projects": {
-    "/Users/lukaslarsen/YFFprosjektAuthSyst/YFFprosjektAuthSyst.csproj": {
+    "/Users/lukaslarsen/YFFvg2-1/YFFprosjektAuthSyst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lukaslarsen/YFFprosjektAuthSyst/YFFprosjektAuthSyst.csproj",
+        "projectUniqueName": "/Users/lukaslarsen/YFFvg2-1/YFFprosjektAuthSyst.csproj",
         "projectName": "YFFprosjektAuthSyst",
-        "projectPath": "/Users/lukaslarsen/YFFprosjektAuthSyst/YFFprosjektAuthSyst.csproj",
+        "projectPath": "/Users/lukaslarsen/YFFvg2-1/YFFprosjektAuthSyst.csproj",
         "packagesPath": "/Users/lukaslarsen/.nuget/packages/",
-        "outputPath": "/Users/lukaslarsen/YFFprosjektAuthSyst/obj/",
+        "outputPath": "/Users/lukaslarsen/YFFvg2-1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lukaslarsen/.nuget/NuGet/NuGet.Config"
@@ -55,6 +55,10 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.1, )"
             }
           },
           "imports": [
