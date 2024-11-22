@@ -14,7 +14,7 @@ namespace UserAccount
             Username = username;
             Email = email;
             Password = password; 
-            // midlertidig, inntil jeg lager metoden for å hashe og salte passorde 
+           // midlertidig, inntil jeg lager metoden for å hashe og salte passorde 
         }
 
         public string hashPassword(Password password)

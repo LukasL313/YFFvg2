@@ -7,7 +7,7 @@ namespace UserAccount
    { 
       UserObject userobject = new UserObject();
 
-      static async Task InsertingUser(string username, string emai, string password)
+      static async Task InsertingUser()
       {
         string connectionString = ConfigurationHelper.GetConnectionString("DefaultConnection");
 
@@ -21,10 +21,10 @@ namespace UserAccount
    
              using (var cmd = new NpgsqlCommand("INSERT INTO user_log_data (\"loginname\",\"emailaddresse\",\"passwordhash\",\"passwordsalt\",) VALUES (@loginname, @emailaddresse, @passwordhash, @passwordsalt)", connection))
              {
-                cmd.Parameters.AddWithValue("LoginName", username.loginname);
-                cmd.Parameters.AddWithValue("Emailaddresse", email.emailaddresse);  
-                cmd.Parameters.AddWithValue("Password", password.passwordhash); 
-                cmd.Parameters.AddWithValue("Password", password.passwordsalt); 
+                cmd.Parameters.AddWithValue("loginName", username.loginname);
+                cmd.Parameters.AddWithValue("emailaddresse", email.emailaddresse);  
+                cmd.Parameters.AddWithValue("passwordhash", password.passwordhash); 
+                cmd.Parameters.AddWithValue("passwordsalt", password.passwordsalt); 
              }
            }
         }
